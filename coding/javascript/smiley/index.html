@@ -1,0 +1,89 @@
+
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smiley</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    img {
+      position: absolute;
+    }
+
+    div {
+      position: absolute;
+      width: 500px;
+      height: 500px
+    }
+
+    #rightSide {
+      left: 500px;
+      border-left: 1px solid black;
+    }
+    </style>
+  </head>
+  <script>
+  // generate number of faces
+
+ 
+
+
+  function generateFaces() {
+    var numberOfFaces = 5;
+    var theLeftSide = document.getElementById("leftSide");
+    var theRightSide = document.getElementById("rightSide");
+    for (var count = 0; count < numberOfFaces; count += 1) {
+      var newSmiley = document.createElement("img");
+      newSmiley.src = "smile.png";
+
+      var topPosition = Math.random() * 400;
+      topPosition = Math.floor(topPosition);
+      var leftPosition = Math.random() * 400;
+      leftPosition = Math.floor(leftPosition);
+
+      newSmiley.style.top = topPosition + "px";
+      newSmiley.style.left = leftPosition + "px";
+      document.getElementById("leftSide").appendChild(newSmiley);
+    
+      var leftSideImages = theLeftSide.cloneNode(true);
+      leftSideImages.removeChild(leftSideImages.lastChild);
+      theRightSide.appendChild(leftSideImages);
+
+
+    }
+    // finishing the game
+    var theBody = document.getElementsByTagName("body")[0];
+
+    //Add an event handler function to the extra face
+    theLeftSide.lastChild.onclick=function nextLevel(event){
+      event.stopPropagation();
+      generateFaces();
+    };
+
+    // add an event handler function to the body
+    theBody.onclick = function gameOver() {
+      alert("Game Over!");
+      theBody.onclick = null;
+      theLeftSide.lastChild.onclick = null;
+    }; 
+
+    
+
+  }
+  </script>
+  <body onload="generateFaces()" >
+    <h1>Matching Game</h1>
+    <p>Click on the extra smiling face on the left</p>
+    <div id="leftSide"></div>
+
+
+
+    <div id="rightSide"></div>
+ 
+  </body>
+</html>

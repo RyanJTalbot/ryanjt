@@ -1,0 +1,31 @@
+---
+layout: post
+title: April 1st
+postHero: /images/screen.jpg
+author: Ryan
+authorTwitter: 
+gravatar: https://s.gravatar.com/avatar/8aa8860849690fd1397f0c42faa71795?s=80
+postFooter: Additional information, and maybe a <a href="#">link or two</a>
+---
+I've been doing some JavaScript projects and here's one of the exercises I recently completed via the NuCamp basics bootcamp.
+
+<body id="bods"> 
+
+<h1 id="my_text">Grocery List</h1>
+
+<ol id="dynamic-list"></ol>
+
+<input type="text" id="candidate"/>
+<button onclick="addItem()">add item</button>
+
+
+<script>
+function addItem(){
+	var ol = document.getElementById("dynamic-list");
+	var candidate = document.getElementById("candidate");
+	var li = document.createElement("li");
+	li.setAttribute('id',candidate.value);
+	li.appendChild(document.createTextNode(candidate.value));
+	ol.appendChild(li);
+}
+</script>
