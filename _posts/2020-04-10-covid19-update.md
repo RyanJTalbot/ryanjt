@@ -9,4 +9,4 @@ postFooter: <a href="http://ldh.la.gov/coronavirus/" target="_blank">Link to Lou
 ---
 
 This is an update of the current situation in Louisiana about the CoronaVirus. The number of deaths are leveling off around 70 and the number of patients in the ICU and on a ventilator are  starting to slowly decrease.<br>
-<img src="/images/virusapr.jpg"  id="corona" alt="coronavirus map"/>
+<img src="/images/virusapr.jpg"  id="corona" alt="coronavirus map width="512" height="354"/>
