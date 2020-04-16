@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen -  Local Weather API</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+<div class="container">
+  
+  <div id="app-display">
+    <h1>Local Weather App</h1>
+  
+       <div id="location">
+        Your Location is <span id="city">Loading...</span>, <span id="state"></span>
+      </div><!--End of Location-->
+
+   <div id="weather">
+          <div class="row">
+             <span id="wIcon"></span>
+         </div>
+
+          <div class="row">
+           It's <span id="temp"></span> over there!
+         </div>
+
+          <div class="row">
+         <button class="btn btn-primary" id="btnToggle">Convert C/F Temp</button>
+          </div>
+  </div><!--End of Weather-->
+
+  <!--Required Credit Link-->
+    <div id="cred">
+      Powered by
+    <a href="http://openweathermap.org/api" target="_blank">Open Weather API</a>, 
+  <a href="https://ipinfo.io/developers"  target="_blank">https://ipinfo.io</a> and
+       <a href="https://github.com/Rob--W/cors-anywhere/"  target="_blank">cors-anywhere.herokuapp.com</a>
+      </div>
+    
+  </div><!--End of App Display section-->
+</div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
