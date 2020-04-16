@@ -19,6 +19,48 @@ layout: default
     </div>
   </div>
 
+<div>  
+    <br><p>Toggle Dark/Light Mode</p>
+  <p>Click the button to toggle between dark and light mode for this page.</p><br>
+
+  <button class=btn onclick="myFunction()">Toggle dark mode</button><br>
+</div>
+
+
+<style>
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .btn {
+    margin-left: 42%;
+  }
+  p {
+    text-align: center;
+  }
+
+  #pic {
+    margin: 5rem;
+  }
+  @media (max-width: 1100px) {
+    #pic {
+      width: 75%;
+      height: 75%;
+    }
+  }
+
+
+</style>
+
+<script>
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+</script>
+  
   <div class="home-callout">
     <h1 class="callout-title">Front-end Developer</h1>
     <div class="callout-copy"> 
