@@ -309,6 +309,11 @@ span.drop-trigger {
 #social-git {
   position: absolute;
 }
+.fab {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
 
 /* HERO */
 
