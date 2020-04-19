@@ -9,3 +9,5 @@ postFooter: #Additional information, and maybe a <a href="#">link or two</a>
 
 I didn't finish any projects today. I recently started a course on Udemy to work on projects but I'm having some trouble with them.
 Not sure if they are just outdated scripts or what the deal is. 
+
+update: after looking back over my code; it ended up being a typo. i had "funciton" instead of "function".
