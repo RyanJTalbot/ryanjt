@@ -1,0 +1,32 @@
+<!DOCTYPE <!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <div>Ask your question</div>
+    <input type="text" placeholder="Question">
+    <button type="button">Ask</button>
+    <div class="message"></div>
+    
+    <script>
+    const answerArray = ["not likely", "Maybe", "Never", "Of course", "Nope"];
+    const message = document.querySelector(".message");
+    const question = document.querySelector("input");
+    const button = document.querySelector("button");
+
+    button.addEventListener("click", function() {
+      console.log(question.value);
+      let res = Math.floor(Math.random()* answerArray.length);
+      console.log(answerArray[res]);
+      message.innerText = question.value + " " + answerArray[res];
+      question.value = "";
+
+    });
+    </script>
+  </body>
+</html>
