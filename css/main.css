@@ -788,4 +788,7 @@ span.drop-trigger {
   .header-nav .drop-trigger:after {
     display: none;
   }
+  .postMedia {
+    width: 90vw;
+  }
 }
