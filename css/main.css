@@ -735,10 +735,6 @@ span.drop-trigger {
     width: 75%;
     height: 75%;
   }
-  .post .post-content,
-  .post-footer {
-    width: 90vw;
-  }
 
   /* MOBILE MENU */
   .show-mobile-menu {
