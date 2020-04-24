@@ -788,4 +788,8 @@ span.drop-trigger {
   .header-nav .drop-trigger:after {
     display: none;
   }
+    /* POST */
+  .half-hero {
+    width:80vw;
+  }
 }
