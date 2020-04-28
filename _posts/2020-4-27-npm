@@ -1,0 +1,16 @@
+---
+layout: post
+title: NPM
+postHero: /images/screen.jpg
+author: Ryan
+authorTwitter: 
+gravatar: https://s.gravatar.com/avatar/8aa8860849690fd1397f0c42faa71795?s=80
+postFooter: <a href="https://scotch.io/tutorials/using-npm-as-a-build-tool" target="_blank">Link to NPM article</a>
+---
+
+I'm reading a great article on NPM in comparisson to grunt and gulp. Here's a snippet, "When 
+using Grunt or Gulp, the packages specific to that build tool are usually just wrappers on 
+the main package. For instance, gulp-sass is really a Gulp specific wrapper to node-sass. 
+We can go straight to the source and just use node-sass with npm!" 
+
+If you've got the time I suggest giving it a read!
