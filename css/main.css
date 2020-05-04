@@ -335,7 +335,7 @@ span.drop-trigger {
   width: 0;
 }
 .hero-home {
-  background-image: url(images/alligatorMd.jpg);
+  background-image: "images/alligatorMd.jpg";
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
