@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CoronaVirus
-postHero: /images/stocksnap.jpg
+postHero: /images/COVID-19.png
 author: Ryan 
 gravatar: https://s.gravatar.com/avatar/8aa8860849690fd1397f0c42faa71795?s=80
 postFooter: #Additional information, and maybe a <a href="#">link or two</a>
