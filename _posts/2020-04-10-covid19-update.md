@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quarintine day 20
-postHero: /images/screen.jpg
+postHero: /images/COVID-19.png
 author: Ryan
 authorTwitter: 
 gravatar: https://s.gravatar.com/avatar/8aa8860849690fd1397f0c42faa71795?s=80
