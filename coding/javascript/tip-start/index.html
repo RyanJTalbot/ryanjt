@@ -1,19 +1,42 @@
-<DOCTYPE! html>
+<!DOCTYPE <!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        text-align: center;
+      }
+      
+    </style>
 
-<head>
-    <title>JavaScript</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> </head>
-
-<body>
+  </head>
+  <body>
     <div class="output"></div>
     <input type="number" value="100">
-    <button type="button">Tip 1</button>
-    <button type="button">Tip 2</button>
-    <script src="js.js">
-    //https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
-    //https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+    <button type="button">Tip 20%</button>
+    <button id="btn2" type="button">Tip 30%</button>
+    
+    <script>
+      const button = document.querySelector("button");
+      const output = document.querySelector(".output");
+      button.addEventListener("click", function(){
+        const cost = document.querySelector("input");
+        let tip = (cost.value * .20).toFixed(2);
+        let temp = `<h1>You should tip $${tip} on $${cost.value}</h1>`;
+        output.innerHTML = temp;
+      })
 
+      const btn2 = document.querySelector("#btn2");
+      btn2.addEventListener("click", function() {
+        const cost = document.querySelector("input");
+        let tip2 = (cost.value * .30).toFixed(3);
+        let temp = `<h1>You should tip $${tip2} on $${cost.value}</h1>`;
+        output.innerHTML = temp;
+      });
+    
     </script>
-</body>
-
+  </body>
 </html>
