@@ -1,0 +1,14 @@
+---
+layout: post
+title: Covid-19 Update
+postHero: /images/COVID-19.png
+author: Ryan
+authorTwitter: 
+gravatar: https://s.gravatar.com/avatar/8aa8860849690fd1397f0c42faa71795?s=80
+postFooter:Louisiana Coronavirus: <a href="http://ldh.la.gov/coronavirus/">Covid Louisiana</a>
+---
+
+Quick update: There is still a quarantine going on. I've had to go into work 
+for the last two weeks (half days), regardless. Current cases in Louisiana is 29,340
+and 1,969 dead. The USA has 1.18 Million confirmed cases and 68,276 dead. Here's a link
+to a easy to make line graph made with chart.js. <img src="img/covidupdate.jpg" alt="coronavirus graph" width="500" height="600">
