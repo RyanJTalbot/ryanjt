@@ -12,4 +12,4 @@ Quick update: As of yesterday the state has moved from quarintine to "phase 1"
 of a 3 phase plan to get back to normal. Despite everyone wanting to get back to normal,
 I think it's to early to do get back to normal yet. Below is a graph of the current deaths
 per date as of today. 
-<img src="/images/covidupdate.jpg" alt="coronavirus graph" width="500" height="600">
+<img src="/images/covidupdate.jpg" id="post_pics" alt="coronavirus graph" width="500" height="600">
