@@ -10,6 +10,7 @@
 }
 
 body {
+  background-image: linear-gradient(to bottom right, rgb(193, 116, 75), #5353a7);
   background-color: #f9fafb;
   font-family: 'Open Sans', sans-serif;
   display: flex;
