@@ -5,6 +5,7 @@
 }
 
 body {
+  background-image: linear-gradient(to bottom right, #4f4fdc, rgb(103, 186, 103));
   background-color: #fff;
   display: flex;
   flex-direction: column;
