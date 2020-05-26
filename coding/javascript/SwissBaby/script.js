@@ -11,7 +11,7 @@ const currentYear = new Date().getFullYear();
 const newYearTime = new Date(`December 09 2020 00:00:00`);
 
 // Set background year
-year.innerText = currentYear +1;
+// year.innerText = currentYear +1;
 
 // Update countdown time
 
