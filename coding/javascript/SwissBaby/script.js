@@ -24,7 +24,7 @@ function updateCountdown() {
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
   const s = Math.floor(diff / 1000) % 60;
-  const w = Math.floor(diff / 1000 / 60 / 60 / 24 / 7);
+  const w = Math.floor(d / 7)
 
   // Add values to DOM
   weeks.innerHtml = w;
