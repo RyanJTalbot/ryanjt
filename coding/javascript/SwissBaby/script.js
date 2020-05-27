@@ -8,7 +8,7 @@ const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`December 09 2020 00:00:00`);
+const babyTime = new Date(`December 09 2020 00:00:00`);
 
 // Set background year
 // year.innerText = currentYear +1;
@@ -17,14 +17,16 @@ const newYearTime = new Date(`December 09 2020 00:00:00`);
 
 function updateCountdown() {
   const currentTime = new Date();
-  const diff = newYearTime - currentTime;
+  const diff = babyTime - currentTime;
 
-  const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+  const d = Math.floor(diff / 1000 / 60 / 60 / 24) % 7;
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
   const s = Math.floor(diff / 1000) % 60;
+  const w = Math.floor(diff / 1000 / 60 / 60 / 24 / 7);
 
   // Add values to DOM
+  weeks.innerHtml = w;
   days.innerHTML = d;
   hours.innerHTML = h < 10 ? '0' + h: h;
   minutes.innerHTML = m < 10 ? '0' + m: m;
