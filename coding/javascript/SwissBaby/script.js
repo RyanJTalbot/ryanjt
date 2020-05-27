@@ -1,4 +1,3 @@
-const weeks = document.getElementById('weeks');
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -24,10 +23,8 @@ function updateCountdown() {
   const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   const m = Math.floor(diff / 1000 / 60) % 60;
   const s = Math.floor(diff / 1000) % 60;
-  const w = Math.floor(d / 7)
 
   // Add values to DOM
-  weeks.innerHtml = w;
   days.innerHTML = d;
   hours.innerHTML = h < 10 ? '0' + h: h;
   minutes.innerHTML = m < 10 ? '0' + m: m;
