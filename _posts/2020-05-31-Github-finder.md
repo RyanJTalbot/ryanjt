@@ -9,5 +9,5 @@ postFooter: <a href="https://ryanjt-githubfinder.netlify.app/">Github Finder Lin
 ---
 
 I've been learning React in my Nucamp course. In my free time I've been trying to learn as much as possible 
-about React. I just wanted to show you a recent project I did with React, making a github search application. 
+about React. I just wanted to show you a recent project I did with React, making a github search application. <a href="https://ryanjt-githubfinder.netlify.app/">Github Finder Link, made with React</a>
 <img src="/images/githubFinder.jpg" id="post_pics" alt="github finder" width="500" height="600">
