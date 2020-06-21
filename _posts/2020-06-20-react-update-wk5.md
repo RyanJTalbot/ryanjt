@@ -10,5 +10,5 @@ postFooter:
 
 Today was the end of week 5 of the React NuCamp course. This week we went over Actions, Reducers, Redux
 Thunk, Client-server Communicaiton, Fetch and React Animations. A lot to learn in one week 
-and it was the hardest week so far. Hopefully with hard work and studying I can get understand
+and it was the hardest week so far. Hopefully with hard work and studying I can get a better understand of it
 and use React in future projects. 
