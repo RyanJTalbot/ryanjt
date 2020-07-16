@@ -11,4 +11,4 @@ postFooter:
 Week 3 of my ReactNative bootcamps is on Saturday. This is the current application we are working on. Its connected
 to the server and is using Expo's android emulator. 
 
-<img src="/images/reactnative_app.png"  id="reactnative" alt="ReactNative applicaiton" width="512" height="354"/>
+<img src="/images/reactnative_app.png"  id="reactnative" alt="ReactNative applicaiton" width="512" height="754"/>
