@@ -450,11 +450,6 @@ span.drop-trigger {
 #darkbtn {
   text-align: center;
 }
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 .home-section h4 {
   margin-bottom: 0.5em;
   text-align: center
