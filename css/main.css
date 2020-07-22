@@ -676,6 +676,12 @@ span.drop-trigger {
     display: none;
   }
 
+  .hero-content h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 8vw;
+    margin-bottom: 40vw;
+  }
+
   /* HEADER STYLES */
   .header-nav {
     padding: 2vh 1em 0 0;
