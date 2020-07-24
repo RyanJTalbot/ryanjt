@@ -372,6 +372,10 @@ span.drop-trigger {
 
 /* HOME PAGE */
 
+.btn {
+  margin-left: 50%;
+}
+
 .home-section {
   margin: 6rem auto;
   max-width: 980px;
@@ -686,6 +690,7 @@ span.drop-trigger {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-left: 50%;
   }
 
   /* HEADER STYLES */
