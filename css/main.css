@@ -556,6 +556,9 @@ span.drop-trigger {
 .page h4 {
   margin-bottom: 1em;
 }
+.react {
+  text-align: center;
+}
 
 /* BLOG STYLES */
 .blog-recent{
